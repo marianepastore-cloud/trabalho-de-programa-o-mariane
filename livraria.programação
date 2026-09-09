@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <style>
+        .caixa {
+            background-color: rgb(125, 89, 140);
+            /* width: 900px; */
+            height: 90px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        .caixinha {
+            width: 350px;
+            height: 50px;
+            border-radius: 20px;
+            background-color: rgb(229, 227, 227);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 6px;
+            align-items: center;
+            color: rgb(109, 109, 109);
+
+        }
+
+        .caixaprincipal {
+            width: 400px;
+            height: 300px;
+            background-color: rgb(245 237 231);
+            margin: 10px;
+            border-radius: 20px;
+            display: flex;
+            gap: 5px;
+
+
+        }
+
+        .caixanova {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 10px;
+
+        }
+
+        .caixadeinformações {
+            width: 400px;
+            height: 200px;
+            background-color: rgb(245 237 231);
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+           
+           
+
+        }
+
+        .caixadainformação {
+           width: 100%;
+            display: flex;
+            justify-content: center;
+            border: 200px;
+
+
+        }
+
+        .banner {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            object-fit: contain;
+
+        }
+
+        .Imagemdoslivros {
+            width: 200px;
+            height: 290px;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .nomundodaluna {
+            width: 200px;
+            height: 280px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .duda {
+            width: 100%;
+        }
+
+        .escritas {
+            font-size: 25px;
+            gap: 5px;
+
+
+
+
+        }
+
+        .btn {
+            width: 190px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+
+
+
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(125, 89, 140);
+            color: rgb(255, 255, 255);
+        }
+
+        input {
+            height: 40px;
+            width: 340px;
+
+        }
+
+        .pesquise {
+            height: 40px;
+            width: 340px;
+            border-radius: 20px;
+        }
+
+        .caixadeemailetals {
+            margin: 1px;
+            display: flex;
+            border-radius: 8px;
+            margin-left: 25px;
+            
+        }
+        .botao{
+            border-radius: 20px;
+            margin: 20px;
+            width: 115px;
+            margin-left:150px ;
+            height: 35px;
+           
+          
+           
+        
+        }
+        .texto{
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="caixa">
+        <img src="https://img.icons8.com/?size=100&id=12KiRC81sMRC&format=png&color=000000" alt "imagem da logo">
+        <div class="caixinha"> <input class="pesquise" type="search" placeholder="pesquise">
+        </div>
+        <div>
+            <a href="#Produtos">Produtos</a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="banner"><img class="duda" src="ChatGPT Image livraria de set. de 2026, 16_22_38.png" alt "livros"></div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="caixanova" id="Produtos">
+
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="maxon.jpg" alt "livro perdida">
+            </div>
+            <div class="escritas">
+                <p><strong>Livro Maxon Hall: Salve-me Autora: Mona Kasten </strong>
+
+                    <br> <br>
+                    <br> R$ 47,64
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="antes de vc.jpg" alt "livro encontrada">
+
+            </div>
+            <div class="escritas">
+                <p><strong>Como eu era antes de você, Autora: Jojo Moyes</strong>
+                    <br>
+                    <br> R$ 42,78
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="ponte para terabi´tia.jpg" alt "livro destinado">
+            </div>
+            <div class="escritas">
+                <p><strong>Livro Ponte para terabítia Autora: Katherine Paterson</strong>
+                    <br>
+                    <br> R$ 32,90
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="acaba.jpn.jpg" alt "livro prometida">
+            </div>
+            <div class="escritas">
+                <p><strong>Livro É assim que acaba Autora: Colleen Hoover</strong>
+                    <br>
+                    <br> R$ 49,98
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="caixanova">
+
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="começa.png" alt "livro desencantada">
+            </div>
+            <div class="escritas">
+
+                <p><strong>Livro É assim que começa Autora: Colleen Hoover</strong>
+
+
+                    <br> R$ 51,20
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+
+        </div>
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="estrelas.png" alt "livro indomada">
+
+            </div>
+            <div class="escritas">
+                <p><strong>Livro A culpa é das estrelas  Autor:John green </strong>
+                    <br>
+                    <br> R$ 52,64
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+        <div class="caixaprincipal">
+            <div class="Imagemdoslivros">
+                <img src="seleçao.png" alt "box livros">
+
+            </div>
+            <div class="escritas">
+                <p><strong>Box da coleção de A seleção COMPLETA: Kiera Kass</strong>
+                    <br>
+                    <br>
+                    <br> R$ 179,98
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+        <div class="caixaprincipal">
+            <div class="nomundodaluna">
+                <img src="por lugares incriveis2.jpg"
+                    alt "outro livro da carina">
+            </div>
+            <div class="escritas">
+                <p><strong> Livro Por lugares incríveis Autora: Jennifer Niven</strong>
+                    <br>
+                    <br>
+                    <br> R$ 58,90
+                </p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="caixadainformação">
+        <div class="caixadeinformações">
+            <p class="texto">Caixa de ajuda</p>
+            <input class="caixadeemailetals" type="search" placeholder="Seu Nome">
+            <input class="caixadeemailetals" type="search" placeholder="Seu Email">
+            <button class="botao">Enviar</button>
+        </div>
+    </div>
+    <br>
+    <footer>Mari</footer>
+    <br>
+    <br>
+
+
+
+
+
+
+
+</body>
+
+</html>
